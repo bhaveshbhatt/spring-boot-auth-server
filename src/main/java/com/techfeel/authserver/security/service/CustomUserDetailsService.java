@@ -12,6 +12,11 @@ import com.techfeel.authserver.security.model.CustomUserDetails;
 import com.techfeel.authserver.security.model.Users;
 import com.techfeel.authserver.security.repository.*;
 
+/**
+ * 
+ * @author bhavesh bhatt
+ *
+ */
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 

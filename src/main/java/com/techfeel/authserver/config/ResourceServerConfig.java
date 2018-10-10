@@ -9,6 +9,12 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
+
+/**
+ * 
+ * @author bhavesh bhatt
+ *
+ */
 @EnableResourceServer
 @Configuration
 public class ResourceServerConfig extends WebSecurityConfigurerAdapter {

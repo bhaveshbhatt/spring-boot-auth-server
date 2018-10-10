@@ -2,7 +2,11 @@ package com.techfeel.authserver.security.model;
 
 import javax.persistence.*;
 import java.util.Set;
-
+/**
+ * 
+ * @author bhavesh bhatt
+ *
+ */
 @Entity
 @Table(name = "user")
 public class Users {

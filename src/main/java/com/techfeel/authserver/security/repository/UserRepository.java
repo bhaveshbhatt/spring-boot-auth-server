@@ -5,6 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.techfeel.authserver.security.model.Users;
 
+/**
+ * 
+ * @author bhavesh bhatt
+ *
+ */
 public interface UserRepository extends JpaRepository<Users, Integer> {
     Optional<Users> findByName(String username);
 }

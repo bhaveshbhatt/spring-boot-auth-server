@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
 
+/**
+ * 
+ * @author bhavesh bhatt
+ *
+ */
 @RestController
 @RequestMapping("/rest/hello")
 public class HelloResource {
